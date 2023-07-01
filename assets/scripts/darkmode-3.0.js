@@ -1,0 +1,1 @@
+﻿$(document).ready(function(){$("#dark-mode-changer").click(function(){null===readCookie("dark_mode_wbijam")?createCookie("dark_mode_wbijam","tak",365):eraseCookie("dark_mode_wbijam"),$("#dark-mode-changer").toggleClass("active"),$("body").toggleClass("dark-mode");try{DISQUS.reset({reload:!0})}catch(e){}})});

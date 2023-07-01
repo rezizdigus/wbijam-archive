@@ -1,0 +1,973 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/style-49.0.css" media="screen">
+  <link rel="icon" type="image/png" href="assets/images/favicon-7.png">
+
+  <title>odcinek.html</title>
+
+  <link rel="stylesheet" href="assets/scripts/lightbox_assets/css/lightbox-1.0.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="assets/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="assets/scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script src="assets/scripts/cookie-1.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/darkmode-3.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/jquery.lightbox-2.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/lightbox-3.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/calendar-12.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/sciezkowanie-8.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/odtwarzacz-7.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/fb-2.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/dzielna_gildia-3.0.js" type="text/javascript"></script>
+  <script src="assets/scripts/menu_series-2.0.js" type="text/javascript"></script>
+
+  <style>
+    .modal-input {
+      padding:.5rem 1rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.htm">wbijam.pl</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Wychodzące
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index-1.htm" class="sub_link" rel="b">Bleach</a>
+        <a href="index-2.htm" class="sub_link" rel="drstone">Dr. Stone</a>
+        <a href="index-3.htm" class="sub_link" rel="jigokuraku">Jigokuraku</a>
+        <a href="index-4.htm" class="sub_link" rel="jujutsu">Jujutsu Kaisen</a>
+        <a href="index-5.htm" class="sub_link" rel="kny">Kimetsu no Yaiba</a>
+        <a href="index-6.htm" class="sub_link" rel="mashle">Mashle</a>
+        <a href="index-7.htm" class="sub_link" rel="mt">Mushoku Tensei</a>
+        <a href="index-8.htm" class="sub_link" rel="op">One Piece</a>
+        <a href="index-9.htm" class="sub_link" rel="oshinoko">Oshi no Ko</a>
+        <a href="index-10.htm" class="sub_link" rel="ousamaranking">Ousama Ranking</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Warsztat
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index-11.htm" class="sub_link" rel="gs">Goblin Slayer (100%)</a>
+        <a href="index-12.htm" class="sub_link" rel="mia">Made in Abyss (100%)</a>
+        <a href="index-13.htm" class="sub_link" rel="overlord">Overlord (100%)</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Lista anime
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index-14.htm" class="sub_link" rel="86">86</a>
+        <a href="index-15.htm" class="sub_link" rel="accelworld">Accel World</a>
+        <a href="index-16.htm" class="sub_link" rel="akudama">Akudama Drive</a>
+        <a href="index-17.htm" class="sub_link" rel="appare">Appare Ranman</a>
+        <a href="index-18.htm" class="sub_link" rel="arifureta">Arifureta</a>
+        <a href="index-19.htm" class="sub_link" rel="ap">Assassins Pride</a>
+        <a href="index-20.htm" class="sub_link" rel="blackclover">Black Clover</a>
+        <a href="index-1.htm" class="sub_link" rel="b">Bleach</a>
+        <a href="index-21.htm" class="sub_link" rel="bluelock">Blue Lock</a>
+        <a href="index-22.htm" class="sub_link" rel="chainsawman">Chainsaw Man</a>
+        <a href="index-23.htm" class="sub_link" rel="clannad">Clannad</a>
+        <a href="index-24.htm" class="sub_link" rel="codegeass">Code Geass</a>
+        <a href="index-25.htm" class="sub_link" rel="danmachi">Danmachi</a>
+        <a href="index-26.htm" class="sub_link" rel="dg">Darwin's Game</a>
+        <a href="index-27.htm" class="sub_link" rel="decadence">Decadence</a>
+        <a href="index-2.htm" class="sub_link" rel="drstone">Dr. Stone</a>
+        <a href="index-28.htm" class="sub_link" rel="enen">Enen no Shouboutai</a>
+        <a href="index-29.htm" class="sub_link" rel="ft">Fairy Tail</a>
+        <a href="index-30.htm" class="sub_link" rel="fulldive">Full Dive</a>
+        <a href="index-31.htm" class="sub_link" rel="fumetsu">Fumetsu no Anata e</a>
+        <a href="index-32.htm" class="sub_link" rel="genkoku">Genjitsu Shugi Yuusha</a>
+        <a href="index-33.htm" class="sub_link" rel="gin">Gintama</a>
+        <a href="index-34.htm" class="sub_link" rel="gleipnir">Gleipnir</a>
+        <a href="index-11.htm" class="sub_link" rel="gs">Goblin Slayer</a>
+        <a href="index-35.htm" class="sub_link" rel="hachinan">Hachinan</a>
+        <a href="index-36.htm" class="sub_link" rel="idaten">Heion Sedai no Idaten-tachi</a>
+        <a href="index-37.htm" class="sub_link" rel="hunter">HunterxHunter</a>
+        <a href="index-38.htm" class="sub_link" rel="dendrogram">Infinite Dendrogram</a>
+        <a href="index-3.htm" class="sub_link" rel="jigokuraku">Jigokuraku</a>
+        <a href="index-4.htm" class="sub_link" rel="jujutsu">Jujutsu Kaisen</a>
+        <a href="index-39.htm" class="sub_link" rel="knt">Kami no Tou</a>
+        <a href="index-40.htm" class="sub_link" rel="knm">Kenja no Mago</a>
+        <a href="index-41.htm" class="sub_link" rel="klk">Kill la Kill</a>
+        <a href="index-5.htm" class="sub_link" rel="kny">Kimetsu no Yaiba</a>
+        <a href="index-42.htm" class="sub_link" rel="kimisen">Kimisen</a>
+        <a href="index-43.htm" class="sub_link" rel="kyokousuiri">Kyokou Suiri</a>
+        <a href="index-44.htm" class="sub_link" rel="lh">Log Horizon</a>
+        <a href="index-12.htm" class="sub_link" rel="mia">Made in Abyss</a>
+        <a href="index-45.htm" class="sub_link" rel="magi">Magi</a>
+        <a href="index-6.htm" class="sub_link" rel="mashle">Mashle</a>
+        <a href="index-7.htm" class="sub_link" rel="mt">Mushoku Tensei</a>
+        <a href="index-46.htm" class="sub_link" rel="narutoboruto">Naruto</a>
+        <a href="index-47.htm" class="sub_link" rel="ngnl">No game no life</a>
+        <a href="index-8.htm" class="sub_link" rel="op">One Piece</a>
+        <a href="index-9.htm" class="sub_link" rel="oshinoko">Oshi no Ko</a>
+        <a href="index-10.htm" class="sub_link" rel="ousamaranking">Ousama Ranking</a>
+        <a href="index-13.htm" class="sub_link" rel="overlord">Overlord</a>
+        <a href="index-48.htm" class="sub_link" rel="plunderer">Plunderer</a>
+        <a href="index-49.htm" class="sub_link" rel="rezero">Re:Zero kara Hajimeru Isekai</a>
+        <a href="index-50.htm" class="sub_link" rel="sentouin">Sentouin, Hakenshimasu!</a>
+        <a href="index-51.htm" class="sub_link" rel="shinchou">Shinchou Yuusha</a>
+        <a href="index-52.htm" class="sub_link" rel="snk">Shingeki no Kyojin</a>
+        <a href="index-53.htm" class="sub_link" rel="sololeveling">Solo Leveling</a>
+        <a href="index-54.htm" class="sub_link" rel="somali">Somali to Mori no Kamisama</a>
+        <a href="index-55.htm" class="sub_link" rel="spyxfamily">SpyxFamily</a>
+        <a href="index-56.htm" class="sub_link" rel="sng">Suisei no Gargantia</a>
+        <a href="index-57.htm" class="sub_link" rel="swordartonline">Sword Art Online</a>
+        <a href="index-58.htm" class="sub_link" rel="tate">Tate no Yuusha no Nariagari</a>
+        <a href="index-59.htm" class="sub_link" rel="slime">Tensei Shitara Slime Datta Ken</a>
+        <a href="index-60.htm" class="sub_link" rel="goh">The God of High School</a>
+        <a href="index-61.htm" class="sub_link" rel="ynn">Yakusoku no Neverland</a>
+        <a href="index-62.htm" class="sub_link" rel="inne">Inne i porzucone</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <div id="adv-top">
+  </div>
+
+  <div id="szkielet">
+    <div id="menu_prawa">
+      <ul id="dark-mode-changer">
+        <li><span>TRYB NOCNY ☽</span><span>TRYB DZIENNY ☼</span></li>
+      </ul>
+      <div id="menu_prawa_fb">
+        <div id="menu_prawa_fb_button"><img src="assets/images/fb_button_a.png" id="menu_prawa_fb_image"></div>
+        <div id="menu_prawa_fb_plugin">
+          <div class="fb-page" data-href="https://www.facebook.com/twojamalajaponia/" data-width="249"
+            data-small-header="false" data-adapt-container-width="false" data-hide-cover="false"
+            data-show-facepile="false">
+            <blockquote cite="https://www.facebook.com/twojamalajaponia/" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/twojamalajaponia/">Twoja Mała Japonia</a></blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="pmenu_naglowek_a">Menu główne</div>
+      <ul class="pmenu">
+        <li><img src="assets/images/news_info.gif" alt=""> <a href="wiadomosci-7.html">Wiadomości</a></li>
+        <li><img src="assets/images/news_info.gif" alt=""> <a href="polityka_prywatnosci-7.html">Polityka
+            prywatności</a></li>
+        <li><img src="assets/images/news_info.gif" alt=""> <a href="pomoc_techniczna-6.html">Pomoc techniczna</a></li>
+      </ul>
+      <!-- <div class="pmenu_naglowek_b">Odcinki anime online</div>
+      <ul class="pmenu">
+        <li><img src="assets/images/tv_info-6.gif" alt=""> <a href="pierwsza_seria-6.html">Pierwsza seria</a></li>
+        <li><img src="assets/images/tv_info-6.gif" alt=""> <a href="odcinki_specjalne-3.html">Odcinki specjalne</a></li>
+        <li><img src="assets/images/tv_info-6.gif" alt=""> <a href="openingi-6.html">Openingi</a></li>
+        <li><img src="assets/images/tv_info-6.gif" alt=""> <a href="endingi-6.html">Endingi</a></li>
+      </ul> -->
+      <div class="pmenu_naglowek_a">Dla fanów</div>
+      <ul class="pmenu">
+        <li><img src="assets/images/tv_info.gif" alt=""><a href="https://discord.gg/s5aP3hg3v" target="_blank">Nieoficjalny Discord</a></li>
+      </ul>
+      <div class="pmenu_naglowek_a">Dostępne serie anime</div>
+      <ul class="pmenu">
+
+        <li id="menu_polecane_header_ongoing" class="menu_prawa_polecane_header"><span
+            id="menu_prawa_polecane_header_ongoing_plus_minus" class="menu_prawa_polecane_plus_minus"> + </span>
+          Aktualnie wychodzące</li>
+        <span id="menu_prawa_polecane_ongoing" class="non-active-menu-polecane">
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-1.htm" class="sub_link"
+              rel="b">Bleach</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-2.htm" class="sub_link"
+              rel="drstone">Dr. Stone</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-3.htm" class="sub_link"
+              rel="jigokuraku">Jigokuraku</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-4.htm" class="sub_link"
+              rel="jujutsu">Jujutsu Kaisen</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-5.htm" class="sub_link"
+              rel="kny">Kimetsu no Yaiba</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-6.htm" class="sub_link"
+              rel="mashle">Mashle</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-7.htm" class="sub_link"
+              rel="mt">Mushoku Tensei</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-8.htm" class="sub_link" rel="op">One
+              Piece</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-9.htm" class="sub_link"
+              rel="oshinoko">Oshi no Ko</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-10.htm" class="sub_link"
+              rel="ousamaranking">Ousama Ranking</a></li>
+        </span>
+
+        <li id="menu_polecane_header_classic" class="menu_prawa_polecane_header"><span
+            id="menu_prawa_polecane_header_classic_plus_minus" class="menu_prawa_polecane_plus_minus"> + </span>
+          Warsztat</li>
+        <span id="menu_prawa_polecane_classic" class="non-active-menu-polecane">
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-11.htm" class="sub_link"
+              rel="gs">Goblin Slayer</a> (100%)</li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-12.htm" class="sub_link" rel="mia">Made
+              in Abyss</a> (100%)</li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-13.htm" class="sub_link"
+              rel="overlord">Overlord</a> (100%)</li>
+        </span>
+
+        <li id="menu_polecane_header_sequel" class="menu_prawa_polecane_header"><span
+            id="menu_prawa_polecane_header_sequel_plus_minus" class="menu_prawa_polecane_plus_minus"> + </span>
+          Zapowiedziane kontynuacje</li>
+        <span id="menu_prawa_polecane_sequel" class="non-active-menu-polecane">
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-18.htm" class="sub_link"
+              rel="arifureta">Arifureta</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-21.htm" class="sub_link"
+              rel="bluelock">Blue Lock</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-24.htm" class="sub_link"
+              rel="codegeass">Code Geass</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-28.htm" class="sub_link"
+              rel="enen">Enen no Shouboutai</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-29.htm" class="sub_link" rel="ft">Fairy
+              Tail</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-31.htm" class="sub_link"
+              rel="fumetsu">Fumetsu no Anata e</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-11.htm" class="sub_link"
+              rel="gs">Goblin Slayer</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-39.htm" class="sub_link" rel="knt">Kami
+              no Tou</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-42.htm" class="sub_link"
+              rel="kimisen">Kimisen</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-12.htm" class="sub_link" rel="mia">Made
+              in Abyss</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-46.htm" class="sub_link"
+              rel="narutoboruto">Naruto</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-13.htm" class="sub_link"
+              rel="overlord">Overlord</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-49.htm" class="sub_link"
+              rel="rezero">Re:Zero kara Hajimeru Isekai</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-52.htm" class="sub_link"
+              rel="snk">Shingeki no Kyojin</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-53.htm" class="sub_link"
+              rel="sololeveling">Solo Leveling</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-55.htm" class="sub_link"
+              rel="spyxfamily">SpyxFamily</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-57.htm" class="sub_link"
+              rel="swordartonline">Sword Art Online</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-58.htm" class="sub_link"
+              rel="tate">Tate no Yuusha no Nariagari</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-59.htm" class="sub_link"
+              rel="slime">Tensei Shitara Slime Datta Ken</a></li>
+        </span>
+
+        <li id="menu_polecane_header_sus" class="menu_prawa_polecane_header"><span
+            id="menu_prawa_polecane_header_sus_plus_minus" class="menu_prawa_polecane_plus_minus"> + </span> Zakończone
+          lub wstrzymane</li>
+        <span id="menu_prawa_polecane_sus" class="non-active-menu-polecane">
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-14.htm" class="sub_link"
+              rel="86">86</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-15.htm" class="sub_link"
+              rel="accelworld">Accel World</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-16.htm" class="sub_link"
+              rel="akudama">Akudama Drive</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-17.htm" class="sub_link"
+              rel="appare">Appare Ranman</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-19.htm" class="sub_link"
+              rel="ap">Assassins Pride</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-20.htm" class="sub_link"
+              rel="blackclover">Black Clover</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-22.htm" class="sub_link"
+              rel="chainsawman">Chainsaw Man</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-23.htm" class="sub_link"
+              rel="clannad">Clannad</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-25.htm" class="sub_link"
+              rel="danmachi">Danmachi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-26.htm" class="sub_link"
+              rel="dg">Darwin's Game</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-27.htm" class="sub_link"
+              rel="decadence">Decadence</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-30.htm" class="sub_link"
+              rel="fulldive">Full Dive</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-32.htm" class="sub_link"
+              rel="genkoku">Genjitsu Shugi Yuusha</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-33.htm" class="sub_link"
+              rel="gin">Gintama</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-34.htm" class="sub_link"
+              rel="gleipnir">Gleipnir</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-35.htm" class="sub_link"
+              rel="hachinan">Hachinan</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-36.htm" class="sub_link"
+              rel="idaten">Heion Sedai no Idaten-tachi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-37.htm" class="sub_link"
+              rel="hunter">HunterxHunter</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-38.htm" class="sub_link"
+              rel="dendrogram">Infinite Dendrogram</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-40.htm" class="sub_link"
+              rel="knm">Kenja no Mago</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-41.htm" class="sub_link" rel="klk">Kill
+              la Kill</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-43.htm" class="sub_link"
+              rel="kyokousuiri">Kyokou Suiri</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-44.htm" class="sub_link" rel="lh">Log
+              Horizon</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-45.htm" class="sub_link"
+              rel="magi">Magi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-47.htm" class="sub_link" rel="ngnl">No
+              game no life</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-48.htm" class="sub_link"
+              rel="plunderer">Plunderer</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-50.htm" class="sub_link"
+              rel="sentouin">Sentouin, Hakenshimasu!</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-51.htm" class="sub_link"
+              rel="shinchou">Shinchou Yuusha</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-54.htm" class="sub_link"
+              rel="somali">Somali to Mori no Kamisama</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-56.htm" class="sub_link"
+              rel="sng">Suisei no Gargantia</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-60.htm" class="sub_link" rel="goh">The
+              God of High School</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-61.htm" class="sub_link"
+              rel="ynn">Yakusoku no Neverland</a></li>
+        </span>
+
+        <li id="menu_polecane_header_all" class="menu_prawa_polecane_header"><span
+            id="menu_prawa_polecane_header_all_plus_minus" class="menu_prawa_polecane_plus_minus"> + </span> Wszystkie
+          serie</li>
+        <span id="menu_prawa_polecane_all" class="non-active-menu-polecane">
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-14.htm" class="sub_link"
+              rel="86">86</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-15.htm" class="sub_link"
+              rel="accelworld">Accel World</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-16.htm" class="sub_link"
+              rel="akudama">Akudama Drive</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-17.htm" class="sub_link"
+              rel="appare">Appare Ranman</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-18.htm" class="sub_link"
+              rel="arifureta">Arifureta</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-19.htm" class="sub_link"
+              rel="ap">Assassins Pride</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-20.htm" class="sub_link"
+              rel="blackclover">Black Clover</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-1.htm" class="sub_link"
+              rel="b">Bleach</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-21.htm" class="sub_link"
+              rel="bluelock">Blue Lock</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-22.htm" class="sub_link"
+              rel="chainsawman">Chainsaw Man</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-23.htm" class="sub_link"
+              rel="clannad">Clannad</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-24.htm" class="sub_link"
+              rel="codegeass">Code Geass</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-25.htm" class="sub_link"
+              rel="danmachi">Danmachi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-26.htm" class="sub_link"
+              rel="dg">Darwin's Game</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-27.htm" class="sub_link"
+              rel="decadence">Decadence</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-2.htm" class="sub_link"
+              rel="drstone">Dr. Stone</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-28.htm" class="sub_link"
+              rel="enen">Enen no Shouboutai</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-29.htm" class="sub_link" rel="ft">Fairy
+              Tail</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-30.htm" class="sub_link"
+              rel="fulldive">Full Dive</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-31.htm" class="sub_link"
+              rel="fumetsu">Fumetsu no Anata e</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-32.htm" class="sub_link"
+              rel="genkoku">Genjitsu Shugi Yuusha</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-33.htm" class="sub_link"
+              rel="gin">Gintama</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-34.htm" class="sub_link"
+              rel="gleipnir">Gleipnir</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-11.htm" class="sub_link"
+              rel="gs">Goblin Slayer</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-35.htm" class="sub_link"
+              rel="hachinan">Hachinan</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-36.htm" class="sub_link"
+              rel="idaten">Heion Sedai no Idaten-tachi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-37.htm" class="sub_link"
+              rel="hunter">HunterxHunter</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-38.htm" class="sub_link"
+              rel="dendrogram">Infinite Dendrogram</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-3.htm" class="sub_link"
+              rel="jigokuraku">Jigokuraku</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-4.htm" class="sub_link"
+              rel="jujutsu">Jujutsu Kaisen</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-39.htm" class="sub_link" rel="knt">Kami
+              no Tou</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-40.htm" class="sub_link"
+              rel="knm">Kenja no Mago</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-41.htm" class="sub_link" rel="klk">Kill
+              la Kill</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-5.htm" class="sub_link"
+              rel="kny">Kimetsu no Yaiba</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-42.htm" class="sub_link"
+              rel="kimisen">Kimisen</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-43.htm" class="sub_link"
+              rel="kyokousuiri">Kyokou Suiri</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-44.htm" class="sub_link" rel="lh">Log
+              Horizon</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-12.htm" class="sub_link" rel="mia">Made
+              in Abyss</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-45.htm" class="sub_link"
+              rel="magi">Magi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-6.htm" class="sub_link"
+              rel="mashle">Mashle</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-7.htm" class="sub_link"
+              rel="mt">Mushoku Tensei</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-46.htm" class="sub_link"
+              rel="narutoboruto">Naruto</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-47.htm" class="sub_link" rel="ngnl">No
+              game no life</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-8.htm" class="sub_link" rel="op">One
+              Piece</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-9.htm" class="sub_link"
+              rel="oshinoko">Oshi no Ko</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-10.htm" class="sub_link"
+              rel="ousamaranking">Ousama Ranking</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-13.htm" class="sub_link"
+              rel="overlord">Overlord</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-48.htm" class="sub_link"
+              rel="plunderer">Plunderer</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-49.htm" class="sub_link"
+              rel="rezero">Re:Zero kara Hajimeru Isekai</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-50.htm" class="sub_link"
+              rel="sentouin">Sentouin, Hakenshimasu!</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-51.htm" class="sub_link"
+              rel="shinchou">Shinchou Yuusha</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-52.htm" class="sub_link"
+              rel="snk">Shingeki no Kyojin</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-53.htm" class="sub_link"
+              rel="sololeveling">Solo Leveling</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-54.htm" class="sub_link"
+              rel="somali">Somali to Mori no Kamisama</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-55.htm" class="sub_link"
+              rel="spyxfamily">SpyxFamily</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-56.htm" class="sub_link"
+              rel="sng">Suisei no Gargantia</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-57.htm" class="sub_link"
+              rel="swordartonline">Sword Art Online</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-58.htm" class="sub_link"
+              rel="tate">Tate no Yuusha no Nariagari</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-59.htm" class="sub_link"
+              rel="slime">Tensei Shitara Slime Datta Ken</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-60.htm" class="sub_link" rel="goh">The
+              God of High School</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-61.htm" class="sub_link"
+              rel="ynn">Yakusoku no Neverland</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-62.htm" class="sub_link"
+              rel="inne">Inne i porzucone</a></li>
+        </span>
+
+      </ul>
+
+      <div class="pmenu_naglowek_a">Kąciki tematyczne</div>
+      <ul class="pmenu">
+
+        <li id="menu_polecane_header_shounen" class="menu_prawa_polecane_header"><span
+            id="menu_prawa_polecane_header_shounen_plus_minus" class="menu_prawa_polecane_plus_minus"> + </span> Centrum
+          shounen (akcja)</li>
+        <span id="menu_prawa_polecane_shounen" class="non-active-menu-polecane">
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-14.htm" class="sub_link"
+              rel="86">86</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-16.htm" class="sub_link"
+              rel="akudama">Akudama Drive</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-17.htm" class="sub_link"
+              rel="appare">Appare Ranman</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-19.htm" class="sub_link"
+              rel="ap">Assassins Pride</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-20.htm" class="sub_link"
+              rel="blackclover">Black Clover</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-1.htm" class="sub_link"
+              rel="b">Bleach</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-21.htm" class="sub_link"
+              rel="bluelock">Blue Lock</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-22.htm" class="sub_link"
+              rel="chainsawman">Chainsaw Man</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-24.htm" class="sub_link"
+              rel="codegeass">Code Geass</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-26.htm" class="sub_link"
+              rel="dg">Darwin's Game</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-2.htm" class="sub_link"
+              rel="drstone">Dr. Stone</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-28.htm" class="sub_link"
+              rel="enen">Enen no Shouboutai</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-29.htm" class="sub_link" rel="ft">Fairy
+              Tail</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-33.htm" class="sub_link"
+              rel="gin">Gintama</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-34.htm" class="sub_link"
+              rel="gleipnir">Gleipnir</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-36.htm" class="sub_link"
+              rel="idaten">Heion Sedai no Idaten-tachi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-37.htm" class="sub_link"
+              rel="hunter">HunterxHunter</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-3.htm" class="sub_link"
+              rel="jigokuraku">Jigokuraku</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-4.htm" class="sub_link"
+              rel="jujutsu">Jujutsu Kaisen</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-39.htm" class="sub_link" rel="knt">Kami
+              no Tou</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-5.htm" class="sub_link"
+              rel="kny">Kimetsu no Yaiba</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-41.htm" class="sub_link" rel="klk">Kill
+              la Kill</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-45.htm" class="sub_link"
+              rel="magi">Magi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-6.htm" class="sub_link"
+              rel="mashle">Mashle</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-46.htm" class="sub_link"
+              rel="narutoboruto">Naruto</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-8.htm" class="sub_link" rel="op">One
+              Piece</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-10.htm" class="sub_link"
+              rel="ousamaranking">Ousama Ranking</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-48.htm" class="sub_link"
+              rel="plunderer">Plunderer</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-52.htm" class="sub_link"
+              rel="snk">Shingeki no Kyojin</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-55.htm" class="sub_link"
+              rel="spyxfamily">SpyxFamily</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-60.htm" class="sub_link" rel="goh">The
+              God of High School</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-61.htm" class="sub_link"
+              rel="ynn">Yakusoku no Neverland</a></li>
+        </span>
+
+        <li id="menu_polecane_header_isekai" class="menu_prawa_polecane_header"><span
+            id="menu_prawa_polecane_header_isekai_plus_minus" class="menu_prawa_polecane_plus_minus"> + </span> Planeta
+          isekai (fantasy)</li>
+        <span id="menu_prawa_polecane_isekai" class="non-active-menu-polecane">
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-15.htm" class="sub_link"
+              rel="accelworld">Accel World</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-18.htm" class="sub_link"
+              rel="arifureta">Arifureta</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-25.htm" class="sub_link"
+              rel="danmachi">Danmachi</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-30.htm" class="sub_link"
+              rel="fulldive">Full Dive</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-32.htm" class="sub_link"
+              rel="genkoku">Genjitsu Shugi Yuusha</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-11.htm" class="sub_link"
+              rel="gs">Goblin Slayer</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-35.htm" class="sub_link"
+              rel="hachinan">Hachinan</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-38.htm" class="sub_link"
+              rel="dendrogram">Infinite Dendrogram</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-40.htm" class="sub_link"
+              rel="knm">Kenja no Mago</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-42.htm" class="sub_link"
+              rel="kimisen">Kimisen</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-44.htm" class="sub_link" rel="lh">Log
+              Horizon</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-12.htm" class="sub_link" rel="mia">Made
+              in Abyss</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-7.htm" class="sub_link"
+              rel="mt">Mushoku Tensei</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-47.htm" class="sub_link" rel="ngnl">No
+              game no life</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-13.htm" class="sub_link"
+              rel="overlord">Overlord</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-49.htm" class="sub_link"
+              rel="rezero">Re:Zero kara Hajimeru Isekai</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-50.htm" class="sub_link"
+              rel="sentouin">Sentouin, Hakenshimasu!</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-51.htm" class="sub_link"
+              rel="shinchou">Shinchou Yuusha</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-53.htm" class="sub_link"
+              rel="sololeveling">Solo Leveling</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-57.htm" class="sub_link"
+              rel="swordartonline">Sword Art Online</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-58.htm" class="sub_link"
+              rel="tate">Tate no Yuusha no Nariagari</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-59.htm" class="sub_link"
+              rel="slime">Tensei Shitara Slime Datta Ken</a></li>
+        </span>
+
+        <li id="menu_polecane_header_nichijou" class="menu_prawa_polecane_header"><span
+            id="menu_prawa_polecane_header_nichijou_plus_minus" class="menu_prawa_polecane_plus_minus"> + </span> Świat
+          nichijou (samo życie)</li>
+        <span id="menu_prawa_polecane_nichijou" class="non-active-menu-polecane">
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-23.htm" class="sub_link"
+              rel="clannad">Clannad</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-27.htm" class="sub_link"
+              rel="decadence">Decadence</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-31.htm" class="sub_link"
+              rel="fumetsu">Fumetsu no Anata e</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-43.htm" class="sub_link"
+              rel="kyokousuiri">Kyokou Suiri</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-9.htm" class="sub_link"
+              rel="oshinoko">Oshi no Ko</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-54.htm" class="sub_link"
+              rel="somali">Somali to Mori no Kamisama</a></li>
+          <li><img src="assets/images/artykul_info-6.gif" alt=""> <a href="index-56.htm" class="sub_link"
+              rel="sng">Suisei no Gargantia</a></li>
+        </span>
+
+      </ul>
+      <div class="pmenu_naglowek_a">Reklama</div>
+      <ul class="pmenu">
+
+      </ul>
+    </div>
+
+    <div id="tresc_lewa">
+      <div class="nawigacja">
+        <div class="nawigacja_lewa">&lt;-- POPRZEDNI</div>
+        <div class="nawigacja_srodek">LISTA ODCINKÓW PIERWSZEJ SERII</div>
+        <div class="nawigacja_prawa">NASTĘPNY --&gt;</div>
+      </div>
+
+      <h1 class="pod_naglowek"><span id="info-strona">Ładowanie...</span>:</h1>
+      <center>
+      </center>
+      <br>
+      <strong>Seria:</strong> <span id="info-seria">Ładowanie...</span>.<br>
+      <strong>Numer odcinka:</strong> <span id="info-odcinek">Ładowanie...</span>.<br>
+      <strong>Polski tytuł odcinka:</strong> <span id="info-tytul-pl">Ładowanie...</span>.<br>
+      <strong>Japoński tytuł odcinka:</strong> <span id="info-tytul-jp">Ładowanie...</span>.<br>
+      <strong>Data premiery:</strong> <span id="info-premiera">Ładowanie...</span>.<br>
+      <strong>Czas trwania odcinka:</strong> <span id="info-czas">Ładowanie...</span>.<br>
+      <strong>Opening:</strong> <span id="info-opening">Ładowanie...</span>.<br>
+      <strong>Ending:</strong> <span id="info-ending">Ładowanie...</span>.<br>
+      <strong>Opis odcinka:</strong> <span id="info-opis">Ładowanie...</span>
+
+      <div id="actual-time">1688069906</div>
+      <div class="episode-calendar-wrapper" rel="">
+        <strong>STAN ODCINKA:</strong>
+        <span class="lista_td_calendar" rel="1593354600"></span>
+      </div>
+
+      <!-- <div id="show-gallery"><strong>ZOBACZ GALERIĘ</strong> <img src="assets/images/ikonka_galeria-6.png"></div>
+<div id="episode-gallery">
+﻿<center>
+<a href="assets/grafika/odcinki/01_01_01-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_01-4.gif"></a>
+<a href="assets/grafika/odcinki/01_01_02-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_02-4.gif"></a>
+<a href="assets/grafika/odcinki/01_01_03-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_03-4.gif"></a>
+<a href="assets/grafika/odcinki/01_01_04-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_04-4.gif"></a>
+<a href="assets/grafika/odcinki/01_01_05-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_05-4.gif"></a><br>
+<a href="assets/grafika/odcinki/01_01_06-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_06-4.gif"></a>
+<a href="assets/grafika/odcinki/01_01_07-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_07-4.gif"></a>
+<a href="assets/grafika/odcinki/01_01_08-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_08-4.gif"></a>
+<a href="assets/grafika/odcinki/01_01_09-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_09-4.gif"></a>
+<a href="assets/grafika/odcinki/01_01_10-4.jpg" rel="galeria" class="lightbox"><img src="assets/grafika/odcinki/01_01_10-4.gif"></a>
+<br><br>
+<img src="assets/images/refresh-6.png" id="refresh-gallery" rel="01_01">
+<br><br>
+</center></div> -->
+
+      <div class="wyniki_wyszukiwania">
+        <div class="wyniki_wyszukiwania_pomoc"><strong>Wyniki wyszukiwania odtwarzaczy (<a
+              href="https://status.zdigus.net">status</a>):</strong></div>
+        <div class="wyniki_wyszukiwania_fb"></div>
+      </div>
+      <table class="lista" id="odtwarzacze">
+        <tbody>
+          <tr>
+            <th>Język</th>
+            <th>Typ</th>
+            <th>Serwer</th>
+            <th>Tłumaczenie</th>
+            <th>Link</th>
+          </tr>
+          <tr class="lista_hover" id="ladowanie-odtwarzaczy">
+            <td class="center" colspan="5">Ładowanie odtwarzaczy, zaczekaj chwilke &lt;3</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <a href="https://discord.gg/s5aP3hg3v" class="dsq-brlink">Rozmowy na nieoficjalnym Discordzie WBIJAM</a>
+      <br><br>
+
+      <div class="nawigacja">
+        <div class="nawigacja_lewa">&lt;-- POPRZEDNI</div>
+        <div class="nawigacja_srodek">LISTA ODCINKÓW PIERWSZEJ SERII</div>
+        <div class="nawigacja_prawa">NASTĘPNY --&gt;</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="stopka_gora">
+    <div id="stopka_gora_lewy"><a href="#top">&uarr;do góry</a></div>
+    <div id="stopka_gora_prawy"><a href="#top">&uarr;do góry</a></div>
+  </div>
+
+  <div id="stopka_srodek">
+    <!-- <strong>Szybki dostęp:</strong> <a href="pierwsza_seria-6.html">pierwsza seria</a>, <a
+      href="openingi-6.html">openingi</a>, <a href="endingi-6.html">endingi</a>.<br> -->
+    <strong>Podobne anime (isekai):</strong>
+    <a href="index-15.htm" class="sub_link" rel="accelworld">Accel World</a>,
+    <a href="index-18.htm" class="sub_link" rel="arifureta">Arifureta</a>,
+    <a href="index-25.htm" class="sub_link" rel="danmachi">Danmachi</a>,
+    <a href="index-30.htm" class="sub_link" rel="fulldive">Full Dive</a>,
+    <a href="index-32.htm" class="sub_link" rel="genkoku">Genjitsu Shugi Yuusha</a>,
+    <a href="index-11.htm" class="sub_link" rel="gs">Goblin Slayer</a>,
+    <a href="index-35.htm" class="sub_link" rel="hachinan">Hachinan</a>,
+    <a href="index-38.htm" class="sub_link" rel="dendrogram">Infinite Dendrogram</a>,
+    <a href="index-40.htm" class="sub_link" rel="knm">Kenja no Mago</a>,
+    <a href="index-42.htm" class="sub_link" rel="kimisen">Kimisen</a>,
+    <a href="index-44.htm" class="sub_link" rel="lh">Log Horizon</a>,
+    <a href="index-12.htm" class="sub_link" rel="mia">Made in Abyss</a>,
+    <a href="index-7.htm" class="sub_link" rel="mt">Mushoku Tensei</a>,
+    <a href="index-47.htm" class="sub_link" rel="ngnl">No game no life</a>,
+    <a href="index-13.htm" class="sub_link" rel="overlord">Overlord</a>,
+    <a href="index-49.htm" class="sub_link" rel="rezero">Re:Zero kara Hajimeru Isekai</a>,
+    <a href="index-50.htm" class="sub_link" rel="sentouin">Sentouin, Hakenshimasu!</a>,
+    <a href="index-51.htm" class="sub_link" rel="shinchou">Shinchou Yuusha</a>,
+    <a href="index-53.htm" class="sub_link" rel="sololeveling">Solo Leveling</a>,
+    <a href="index-57.htm" class="sub_link" rel="swordartonline">Sword Art Online</a>,
+    <a href="index-58.htm" class="sub_link" rel="tate">Tate no Yuusha no Nariagari</a>,
+    <a href="index-59.htm" class="sub_link" rel="slime">Tensei Shitara Slime Datta Ken</a>.
+
+  </div>
+
+  <div id="stopka_dol">
+    Strona wykorzystuje pliki cookies. Korzystając ze strony, zgadzasz się na ich udostępnianie. Można je również
+    zablokować w ustawieniach przeglądarki. Więcej w <a href="polityka_prywatnosci-7.html">polityce prywatności</a>.<br>
+    Twoja Mała Japonia to grupa promująca kulturę japońską w Polsce. Naszym celem jest poszerzanie dostępności
+    japońskich anime w ojczystym języku. Podejmujemy się tłumaczenia tylko i wyłącznie serii, które z różnych powodów
+    nie zostały wydane oficjalnie, więc nie jesteśmy konkurencją dla oficjalnych wydawców, a ich uzupełnieniem. Dlatego
+    również serie wydane oficjalnie po polsku są ze strony systematycznie usuwane, jak chociażby Przygody Sindbada. Na
+    stronie pojawiają się tylko i wyłącznie polskie, fanowskie wersje językowe (napisy), by nie działać na szkodę
+    międzynarodowym wydawcom, nie publikujemy wersji angielskich ani bez napisów (rawów). Jeśli mimo tego na stronie
+    został naruszony czyjś dobry interes, prosimy o kontakt oficjalnego przedstawiciela na e-mail podany w dziale
+    Kontakt.
+  </div>
+
+  <!-- DODAJ ODCINEK MODAL -->
+  <div id="modal" style="display: none;">
+    <div style="display:none;position:absolute;top:0;left:0;width: 100vw;height: 100vh;background-color: rgba(0, 0, 0, 0.4);display: flex;align-items: center;justify-content: center;">
+      <div id="modal-close" style="color:red; position:absolute;top: 15px; right: 15px;cursor:pointer;font-size:25px;">X</div>
+      <div style="position:relative;background-color: #333;padding:2rem;max-width: calc(100vw - .5rem);max-height: calc(100vh - 1rem);border: 1px #fff solid;border-radius: 2px;">
+        <input type="text" class="modal-input" placeholder="Sezon" id="sezon" disabled>
+        <input type="text" class="modal-input" placeholder="Odcinek" id="odcinek" disabled>
+        <br>
+        <input type="text" class="modal-input" placeholder="Tłumaczenie" id="tlumaczenie" style="width: calc(100% - 2rem);">
+        <br>
+        <select style="width: 100%;" type="text" class="modal-input" placeholder="Jakość" id="jakosc">
+          <option value="[FHD]">[FHD]</option>
+          <option value="[HD]" default>[HD]</option>
+          <option value="[SD]">[SD]</option>
+        </select>
+        <select style="width: 100%;" type="text" class="modal-input" placeholder="Odtwarzacz" id="typ_odtwarzacza">
+          <option value="cda">cda</option>
+          <option value="mega">mega</option>
+          <option value="gd">Google Drive</option>
+        </select>
+        <br>
+        <input class="modal-input" placeholder="Link do odtwarzacza" style="width: calc(100% - 2rem);" id="link-odtwarzacz">
+        <br>
+        <button class="modal-input" style="width: calc(100%);" onclick="stworzOdtwarzacz()">Dodaj</button><span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $('#modal-close').on('click', () => {
+      $('#modal').hide();
+    })
+  </script>
+
+  <script>
+    const host = 'http://127.0.0.1:2806/'
+    let idSeria;
+
+    $(async function() {
+      const params = (new URL(document.location)).searchParams
+      let seria = params.get('seria')
+      let odcinek = params.get('odcinek')
+      let sezon = params.get('sezon')
+
+      const daneSeria = await fetch(host + 'seria', {
+        method: 'POST',
+        body: JSON.stringify({
+          id: seria
+        }),
+        headers: [
+          ['Content-Type', 'application/json']
+        ]
+      })
+
+      const daneOdcinka = await fetch(host + 'odcinek', {
+        method: 'POST',
+        body: JSON.stringify({
+          seria: seria,
+          odcinek: odcinek,
+          sezon: sezon
+        }),
+        headers: [
+          ['Content-Type', 'application/json']
+        ]
+      })
+
+      const daneOdtwarzaczy = await fetch(host + 'odtwarzacze', {
+        method: 'POST',
+        body: JSON.stringify({
+          seria: seria,
+          odcinek: odcinek,
+          sezon: sezon
+        }),
+        headers: [
+          ['Content-Type', 'application/json']
+        ]
+      })
+
+      if (!daneSeria.ok) {
+        return
+      }
+      if (!daneOdcinka.ok) {
+        return
+      }
+
+      odcinekData = await daneOdcinka.json()
+      seriaData = await daneSeria.json()
+      odtwarzaczeData = await daneOdtwarzaczy.json()
+
+      idSeria = seriaData.id
+
+      console.log(odcinekData)
+      console.log(seriaData)
+      console.log(odtwarzaczeData)
+
+      ustawDaneOdcinka(odcinekData, seriaData)
+      aktualizujOdtwarzacze(odtwarzaczeData)
+
+      ustawNawigacje(odcinekData)
+    })
+
+    function ustawDaneOdcinka(daneOdcinka, daneSerii) {
+      document.title = `${daneSerii.nazwa} ${daneOdcinka.odcinek} "${daneOdcinka.tytul_pl}"`
+
+      $('#info-strona').html(`${daneSerii.nazwa} ${daneOdcinka.odcinek} "${daneOdcinka.tytul_pl}"`)
+      $('#info-seria').html(daneSerii.nazwa || 'N/A')
+      $('#info-odcinek').html(daneOdcinka.odcinek || 'N/A')
+      $('#info-tytul-pl').html(daneOdcinka.tytul_pl || 'N/A')
+      $('#info-tytul-jp').html(daneOdcinka.tytul_jp || 'N/A')
+      $('#info-premiera').html(daneOdcinka.data_premiery || 'N/A')
+      $('#info-czas').html(daneOdcinka.czas_trwania || 'N/A')
+      $('#info-opening').html(daneOdcinka.opening || 'N/A')
+      $('#info-ending').html(daneOdcinka.ending || 'N/A')
+      $('#info-opis').html(daneOdcinka.opis || 'N/A')
+
+      $('#sezon').val(daneOdcinka.sezon)
+      $('#odcinek').val(daneOdcinka.odcinek)
+    }
+
+    // dodaje nowy odtwarzacz do bazy danych i tabeli
+    function stworzOdtwarzacz() {
+      let sezon = $('#sezon').val()
+      let odcinek = $('#odcinek').val()
+      let tlumaczenie = $('#tlumaczenie').val()
+      let jakosc = $('#jakosc').val()
+      let typ_odtwarzacza = $('#typ_odtwarzacza').val()
+      let link_odtwarzacz = $('#link-odtwarzacz').val()
+
+      if (!sezon) return
+      if (!odcinek) return
+      if (!tlumaczenie) return
+      if (!jakosc) return
+      if (!typ_odtwarzacza) return
+      if (!link_odtwarzacz) return
+
+      fetch(host + 'dodaj/odtwarzacz', {
+        method: 'POST',
+        body: JSON.stringify({
+          seria: idSeria,
+          sezon: sezon,
+          odcinek: odcinek,
+          typ: typ_odtwarzacza,
+          tlumaczenie: tlumaczenie,
+          jakosc: jakosc,
+          link: link_odtwarzacz
+        }),
+        headers: [
+          ['Content-Type', 'application/json']
+        ]
+      }).then(res => {
+        if (res.ok) location.reload()
+        else {
+          console.error(`Blad podczas dodawania odtwarzacza ${this}`)
+          alert('Wystapil blad podczas dodawania odtwarzacza, sprobuj ponownie pozniej.')
+        }
+      })
+    }
+
+    function pokazStworzOdtwarzacz() {
+      $("#modal").show()
+    }
+
+    // dodaje odtwarzacz do tabeli
+    function dodajOdtwarzacz(odtwarzacz) {
+      /*
+        <tr class="lista_hover">
+          <td class="center"><img src="assets/images/pl-6.gif"></td>
+          <td class="center">ONLINE</td>
+          <td class="center">PLAYER</td>
+          <td class="center">TŁUMACZENIE</td>
+          <td class="center"><a href="LINK" target="_blank">oglądaj [JAKOŚĆ]</a></td>
+        </tr> 
+      */
+
+      const tableOdtwarzacze = document.getElementById('odtwarzacze')
+      const row = tableOdtwarzacze.insertRow()
+
+      row.classList.add('lista_hover')
+
+      row.innerHTML = `
+          <td class="center"><img src="assets/images/pl-6.gif"></td>
+          <td class="center">ONLINE</td>
+          <td class="center">${odtwarzacz.typ}</td>
+          <td class="center">${odtwarzacz.tlumaczenie}</td>
+          <td class="center"><a href="${odtwarzacz.link}" target="_blank">oglądaj ${odtwarzacz.jakosc}</a></td>`
+    }
+
+    function aktualizujOdtwarzacze(daneOdtwarzaczy) {
+      $('#ladowanie-odtwarzaczy').hide(true)
+      const tableOdtwarzacze = document.getElementById('odtwarzacze')
+
+      if (daneOdtwarzaczy.length > 0) daneOdtwarzaczy.forEach(odtwarzacz => dodajOdtwarzacz(odtwarzacz))
+
+      const row = tableOdtwarzacze.insertRow(-1)
+      console.log(row)
+      row.innerHTML = '<td class="center" colspan="5"><a href="#" onclick="pokazStworzOdtwarzacz()">Dodaj odtwarzacz</a></td>'
+    }
+
+    function ustawNawigacje(daneOdcinka) {
+      // <div class="nawigacja_lewa">&lt;-- POPRZEDNI</div>
+      // <div class="nawigacja_srodek">LISTA ODCINKÓW PIERWSZEJ SERII</div>
+      // <div class="nawigacja_prawa">NASTĘPNY --&gt;</div>
+
+      const lewa = document.getElementsByClassName('nawigacja_lewa')
+      const srodek = document.getElementsByClassName('nawigacja_srodek')
+      const prawa = document.getElementsByClassName('nawigacja_prawa')
+
+      for (let element of lewa) {
+        if (daneOdcinka.odcinek <= 1) continue
+        element.innerHTML = `<a href="odcinek.html?seria=${daneOdcinka.seria}&sezon=${daneOdcinka.sezon}&odcinek=${daneOdcinka.odcinek - 1}">&lt;-- POPRZEDNI</a>`
+      }
+
+      for (let element of srodek) {
+        if (daneOdcinka.lista_static) element.innerHTML = `<a href="${daneOdcinka.lista_static}">LISTA ODCINKÓW OBECNEJ SERII</a>` // jezeli jest zdecydowanie za duzo odcinkow na liscie (np. one piece)
+        else element.innerHTML = `<a href="lista-odcinkow.html?seria=${daneOdcinka.seria}&sezon=${daneOdcinka.sezon}">LISTA ODCINKÓW OBECNEJ SERII</a>`
+      }
+
+      for (let element of prawa) {
+        if (daneOdcinka.ostatni == true) continue
+        element.innerHTML = `<a href="odcinek.html?seria=${daneOdcinka.seria}&sezon=${daneOdcinka.sezon}&odcinek=${daneOdcinka.odcinek + 1}">NASTĘPNY --&gt;</a>`
+      }
+    }
+  </script>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav")
+      if (x.className === "topnav") {
+        x.className += " responsive"
+      } else {
+        x.className = "topnav"
+      }
+    }
+  </script>
+
+</body>
+
+</html>

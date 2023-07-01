@@ -1,0 +1,1 @@
+﻿!function(o){o(function(){o("body").on("click",".sub_link",function(t){t.preventDefault();var n=o(this).attr("rel"),i="";i=""!=n?"https://"+n+".wbijam.pl":"https://wbijam.pl",window.location.href=i}),o("body").on("click",".sub_inner_link",function(t){t.preventDefault();var n;n="https://wbijam.pl/"+o(this).attr("href"),window.location.href=n})})}(jQuery);

@@ -1,0 +1,1 @@
+﻿!function(n){n(function(){n("body").on("click","#menu_prawa_fb_image",function(){$("#menu_prawa_fb_plugin").toggle(500)})})}(jQuery);
